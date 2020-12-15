@@ -25,13 +25,6 @@ var routes = [{
         return _interopRequireWildcard(require('pages/Academia.vue'));
       });
     }
-  }, {
-    path: 'academia',
-    component: function component() {
-      return Promise.resolve().then(function () {
-        return _interopRequireWildcard(require('pages/Churrasqueira.vue'));
-      });
-    }
   }]
 }, // Always leave this as last one,
 // but you can also remove it
