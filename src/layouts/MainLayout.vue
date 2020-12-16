@@ -2,12 +2,8 @@
   <q-layout view="lHh Lpr lFf" max-width="760px" style="max-width: 560px; margin: 0 auto;">
     <div class="text-center text-h4 q-my-md">Agenda Fernando de Noronha</div>
     <q-tabs class="q-mb-md">
-      <q-route-tab
-        icon="fitness_center"
-        label="Academia"
-        to="/"
-        exact
-      />
+      <q-route-tab icon="fitness_center" label="Academia" to="academia" exact />
+      <q-route-tab icon="pool" label="Piscina" to="piscina" exact />
     </q-tabs>
     <q-page-container>
       <router-view />
